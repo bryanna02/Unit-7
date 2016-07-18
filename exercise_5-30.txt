@@ -1,0 +1,11 @@
+Question #30
+Bryanna Miles
+
+(a) The expression new Date() produces the abbreviated day, 
+    the month, day of month, the year, the time in hours, 
+	minutes and seconds, and the time zone.
+	
+(b) new Date(2009,0,20) produces and error with "invalid date".
+
+(c) d1. valueOf() - d2. valueOf() produces the substraction of 
+    the dates in numbers. 
