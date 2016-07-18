@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <title>Exercise 5-27</title>
+   </head>
+
+   <body>
+      <h1>Movie Constructor</h1>
+      <script>
+         function movieFunction(title, rating, director, producer, studio, releaseDate) {
+            this.title = title;
+            this.rating = rating;
+	        this.director = director;
+            this.producer = producer;
+	        this.studio = studio;
+            this.releaseDate = releaseDate;
+         }
+         var movie = new movieFunction (" ", " ", " ", " ", " ", " ")
+            document.write("Movie: " + movie.title + "<br>Rating: " + movie.rating + "<br>Directors: " 
+            + movie.director + "<br>Producer: " + movie.producer + "<br>Studio: " + movie.studio + "<br>Release Date: " + movie.releaseDate );
+      </script>
+   </body>
+</html>
